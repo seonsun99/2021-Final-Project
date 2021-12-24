@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>독립유공자 후손들</title>
+  <link rel="icon" href="./img/favicon.png">
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <div id="header">
+    <div>
+      <a href="https://www.mpva.go.kr/mpva/index.do" target="blank"><img src="./img/logo.png" alt="국가보훈처"></a>
+      <table id="menu">
+        <tr>
+          <td><a href="./index.html" id="currentpage">독립유공자 후손들</a></td>
+          <td><a href="./sub01.html">후원 방법</a></td>
+          <td><a href="./sub02.html">국가보훈처</a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div div id="container">
+   <div id="maincontainer_top">
+    <div id="mainimg"><img src="./img/main_big.png" alt="mainimg"></div>
+    <div id="main_innercontainer_top">
+      <div id="maintitle"><h1><span style="color: #3952D9;">대한독립</span>을 위해<br>싸운 수많은 사람들</h1></div>
+      <div id="maintext01">
+        <p>일제 강점기에 대한독립을 위해 수많은 독립운동가들이 자신의 삶을 희생하였습니다. 그들의 삶이 우리가 살고있는 대한민국을 만들어 냈습니다. 국가에서는 독립운동가들 중 훈장/포장/표창을 받으신분들을 <span style="color: #3952D9;">'독립유공자'</span> 라고 칭합니다.</p>
+          <p><span style="color: #3952D9;">2021년 현재, 독립유공자 후손들은 어떻게 살아가고 있을까요?</span></p>
+      </div>
+      <div id="mainfindingbotton"><a href="https://e-gonghun.mpva.go.kr/user/RewardDisList.do" target="blank"><img src="./img/findingbotton.png" alt="finding"></a></div>
+      <div id="mainfindingtext"><p style="font-size: 15px">독립운동을 참여한 공적으로 포상을 받은 <br>독립유공자 중 후손이 확인되지 않아 훈장을 <br>전수하지 못한 독립유공자의 후손을 공훈전자사료관에서 확인해보세요!</p></div>
+    </div>
+   </div>
+
+    <div id="maincontainer_bottom">
+      <div id="maintext02">
+        <p style="font-size: 15px;">
+          독립유공자 후손들은 생각보다 어려운 삶을 살아가고 있습니다. 가난이 대물림 되는 
+          <br>안타까운 현실이지만 그들 중 46.4%나 사회적 무관심을 받고 있는 현실을 살고 있습니다.
+          <br>
+          <br><span style="color: crimson;">월 개인 소득 200만원 미만인 후손이 75.2%</span>
+          <br><span style="color: crimson;">고등학교 이상의 교육을 받지 못한 후손 70%</span>
+          <br>
+          <br>이들 중 국가의 지원을 제대로 받고 있는 후손은 <span style="color: crimson;">단 10%</span>밖에 되지 않습니다.
+          <br>
+          <br>우리에게 대한독립과 안락한 보금자리를 제공해 준 독립유공자의 후손들은 이렇게나 열악한
+          <br>환경 속에서 살아가고 있습니다.
+        </p>
+      </div>
+      <div id="maingraph"><img src="./img/main_graph.png" alt="graph"></div>
+      <div id="savethem">
+        <table>
+          <tr>
+            <td><img src="./img/flowersmall01.png" alt=""></td>
+            <td><h2>이제 우리가 그들의 삶을 지켜줄 때입니다!</h2></td>
+            <td><img src="./img/flowersmall02.png" alt=""></td>
+          </tr>
+        </table>
+      </div>
+        <div id="mainhowto">
+          <a href="./sub01.html" alt="sub01"><img src="./img/main_howto.png" alt="howto"></a>
+        </div>
+    </div>
+  </div>
+
+  <div id="footer" style="position: relative; top: 2411px;">
+    <div class="footer_inner"><p style="font-size: 15px;">Made by Jiseon Lee from Web Media Design Class, 2021</p></div>
+  </div>
+
+  <div class="subtitle" style="position: absolute; top: 1180px;">
+    <div class="lableinfo">
+      독립유공자 후손의 삶
+    </div>
+  </div>
+  <div id="pastelyellowbg01"></div>
+  <div id="pastelyellowbg02"></div>
+  <div style="position: fixed; bottom: 8px; right:50px; z-index: 5;">
+    <a href="#header"><img src="./img/up.png" alt="up" title="위로가기"></a>
+  </div>
+
+ <!-- popup-->
+ <div style="position: fixed; bottom: 8px; left: 50px; z-index: 5;">
+  <a href="javascript:()" onclick="showpopup ();" class="popupicon"></a>
+</div>
+
+<div class="popup" id="popup">
+  <div class="dimmed"></div>
+  <div id="container" style="z-index: 20;">
+    <div class="popup_cont">
+      <h2>국가보훈처의 뉴스레터를 구독해보세요.</h2>
+    <form action="">
+      <div class="row">
+        <div class="item">
+          <input type="text" placeholder="이름">
+        </div>  
+        <div class="item">  
+          <input type="text" placeholder="이메일 주소 입력">
+        </div>
+      </div>
+      <button class="signup" onclick="hidepopup ();">구독하기</button>
+      <button class="close" onclick="hidepopup ();"></button>  
+    </form>
+    </div>
+  </div>
+</div>
+
+<script src="./script.js" type="text/javascript"></script>
+</body>
+</html>
